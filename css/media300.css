@@ -1,0 +1,9 @@
+@media screen and (max-width: 300px){
+    .form-container{        
+        width: 200px
+    }
+
+    .logo{
+        display: block;
+    }
+}
