@@ -1,0 +1,35 @@
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    place-content: center;
+    gap: 1%;
+}
+
+.card-product{
+    width: 240px;
+    margin-top: 5%; 
+}
+
+.card-product .product-img{
+    width: 100%;
+    height: 240px; 
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.text-1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7.5%;
+}
+
+.container-add_to_cart{
+    margin-left: auto;
+}
