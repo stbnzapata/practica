@@ -1,11 +1,15 @@
 @media screen and (max-width: 900px){
     .logo{
         display: block;
-    }    
+    }
+
+    .button-account{
+        margin-top: 75px;
+    }      
 }
 
 @media screen and (min-width: 900px){
     .button-login-signup{
         margin-top: 50px;
-    }    
+    }   
 }
