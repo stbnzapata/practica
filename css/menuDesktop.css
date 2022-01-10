@@ -1,0 +1,31 @@
+.desktop-menu{
+    width: 100px;
+    height: auto;
+    border: 1px solid grey;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; 
+    padding: 20px;   
+}
+
+.list-item{
+    text-align: end;
+}
+
+.desktop-menu .list-menu .list-item:last-child{
+    padding-top: 20px;
+    border-top: 1px solid grey;    
+}
+
+.desktop-menu .list-menu .list-item .link-item{
+    color: var(--black);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.desktop-menu .list-menu .list-item:last-child .link-item{
+    color: var(--hospital-green);
+    margin-bottom: 0;
+    font-weight: normal;
+}
