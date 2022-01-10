@@ -1,44 +1,24 @@
-.newPassword{
+.login{
     width: 100%;
     height: 100vh;
     display: grid;
     place-items: center;
 }
 
-.form-container-newPassword{
+.form-container-login{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
 }
 
-.logo{
-    width: 150px;
-    margin-bottom: 50px;
-    justify-self: center;
-    display: none;
-}
-
-.title-new-password{
-    font-size: var(--lg);
-    font-weight: bold;
-    margin-bottom: 12px;
-    text-align: center;
-}
-
-.subtitle-new-password{
-    font-size: var(--md);
-    margin-bottom: 12px;
-    text-align: center;
-}
-
-.label-new-password{
+.label-login{
     font-size: var(--sm);
     font-weight: bold;
     display: block;
     margin-bottom: 1rem;
 }
 
-.input-new-password{
+.input-login{
     background-color: var(--very-light-pink);
     display: block;
     width: 100%;
@@ -48,7 +28,7 @@
     border-radius: 7.5px;
 }
 
-.button-new-password{
+.button-login{
     background: var(--hospital-green);
     color: var(--white);
     width: 100%;
@@ -59,4 +39,29 @@
     cursor: pointer;
     font-weight: bold;
     font-size: var(--md);
+}
+
+.text-login{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.link-login{
+    text-decoration: none;
+    color: var(--hospital-green);
+    font-weight: bold;
+}
+
+.button-login-signup{
+    background: var(--white);
+    color: var(--hospital-green);
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--hospital-green);
+    border-radius: 7.5px;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 100px;
 }

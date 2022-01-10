@@ -11,13 +11,6 @@
     width: 300px;
 }
 
-.logo{
-    width: 150px;
-    margin-bottom: 50px;
-    justify-self: center;
-    display: none;
-}
-
 .title-emailsent{
     font-size: var(--lg);
     font-weight: bold;
