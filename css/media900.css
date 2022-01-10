@@ -3,13 +3,17 @@
         display: block;
     }
 
-    .button-account{
+    .button-account, .button-editAccount{
         margin-top: 75px;
     }      
 }
 
 @media screen and (min-width: 900px){
     .button-login-signup{
+        margin-top: 50px;
+    }
+       
+    .button-myDatas{
         margin-top: 50px;
     }   
 }
