@@ -1,0 +1,41 @@
+.movilMenu{
+    padding: 24px;
+    color: var(--black); 
+}
+
+.list-menu-movilMenu{
+    margin-bottom: 1.5rem;
+}
+
+.title-categorie{
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.list-item-movilMenu{
+    margin-bottom: 1.5rem;
+}
+
+.list-menu-movilMenu:nth-child(1){
+    border-bottom: 1px solid silver;
+}
+
+.link-item-movilMenu{
+    color: var(--black);
+}
+
+.other-info-movilMenu{
+    margin-top: 4.5rem;
+}
+
+.email-movilMenu{
+    font-size: var(--sm);
+    color: silver;
+    margin-bottom: 0.5rem;
+}
+
+.link-cerrarSesion{
+    color: var(--hospital-green);
+    font-weight: bold;
+    font-size: var(--sm);
+}

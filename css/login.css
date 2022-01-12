@@ -47,7 +47,6 @@
 }
 
 .link-login{
-    text-decoration: none;
     color: var(--hospital-green);
     font-weight: bold;
 }

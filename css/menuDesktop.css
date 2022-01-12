@@ -18,7 +18,6 @@
 
 .desktop-menu .list-menu .list-item .link-item{
     color: var(--black);
-    text-decoration: none;
     display: inline-block;
     margin-bottom: 20px;
     font-weight: bold;
