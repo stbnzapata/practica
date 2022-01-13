@@ -1,0 +1,84 @@
+.myOrder-principal{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;    
+}
+
+.myOrder{
+    width: 50%;
+    height: 100vh;
+    /* display: grid;
+    place-items: center; */
+}
+
+.title-myOrder{
+    font-size: var(--lg);
+    font-weight: bold;
+    place-self: start;
+    margin: 2.5rem 0;
+}
+
+.myOrder-container{
+    /* display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px; */
+    margin-bottom: 2.5% ;
+    padding: 1%;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+.myOrder-content{
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.myOrder-container-info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.myOrder-text{
+    font-size: var(--lg);
+}
+
+.myOrder-text:nth-child(1){
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.myOrder-totalPrice{
+    margin-left: auto;
+    font-size: var(--lg);
+    font-weight: bold;
+}
+
+.shopping-cart-container{
+    display: flex;
+    align-items: center;
+}
+
+.shopping-cart-myOrder{
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+
+.shopping-cart-container figure img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.myOrder-articleName{
+    color: silver;
+    margin-left: 2.5%;
+}
+
+.myOrder-articlePrice{
+    margin-left: auto;
+    font-weight: bold;
+    font-size: var(--lg);
+}

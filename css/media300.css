@@ -7,4 +7,19 @@
         display: block;
     }
 
+    .myOrder{
+        width: 95%;
+    }
+
+    .shopping-cart-myOrder{       
+        width: 85%;
+        margin-left: 5%;
+    }
+
+    .shopping-cart-container figure img {
+        width: 70px;
+        height: 70px;
+    }
+
+
 }

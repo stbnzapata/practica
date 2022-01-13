@@ -24,5 +24,14 @@
     .product-info{
         margin-top: 5%;
     }
+
+    .myOrder{
+        width: 85%;
+    }
+
+    .shopping-cart-container figure img {
+        width: 90px;
+        height: 90px;
+    }
 }
 
