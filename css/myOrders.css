@@ -1,0 +1,16 @@
+.right-arrow{
+    color:silver;
+    margin: 0 2.5%;
+}
+
+.myOrders-content-info{
+    width: 50%;
+}
+
+.myOrders-totalPrice{
+    margin-left: auto;
+    font-size: var(--lg);
+    font-weight: bold;
+    width: 50%;
+    text-align: right;
+}

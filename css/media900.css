@@ -5,7 +5,11 @@
 
     .button-account, .button-editAccount{
         margin-top: 75px;
-    }      
+    }
+    
+    .myOrder{
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 900px){
